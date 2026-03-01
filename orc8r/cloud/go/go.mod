@@ -31,10 +31,10 @@ require (
 	github.com/go-openapi/validate v0.20.3
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-swagger/go-swagger v0.29.0
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.5.2
-	github.com/google/go-cmp v0.5.8
-	github.com/google/uuid v1.1.2
+	github.com/golang/glog v1.2.4
+	github.com/golang/protobuf v1.5.3
+	github.com/google/go-cmp v0.6.0
+	github.com/google/uuid v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/imdario/mergo v0.3.5
@@ -58,16 +58,16 @@ require (
 	github.com/thoas/go-funk v0.7.0
 	github.com/vektra/mockery/v2 v2.10.4
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/net v0.7.0
-	golang.org/x/tools v0.1.12
-	google.golang.org/grpc v1.48.0
-	google.golang.org/protobuf v1.28.0
+	golang.org/x/crypto v0.45.0
+	golang.org/x/net v0.47.0
+	golang.org/x/tools v0.38.0
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/DATA-DOG/go-sqlmock.v1 v1.3.0
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/gotestsum v1.8.0
 	k8s.io/api v0.0.0-20191016110408-35e52d86657a
-	k8s.io/apimachinery v0.0.0-20191004115801-a2eda9f80ab8
+	k8s.io/apimachinery v0.16.13
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
 	magma/gateway v0.0.0
 	magma/orc8r/lib/go v0.0.0-00010101000000-000000000000
@@ -81,7 +81,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgraph-io/ristretto v0.0.2 // indirect
 	github.com/dnephin/pflag v1.0.7 // indirect
@@ -151,22 +151,23 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
 	go.mongodb.org/mongo-driver v1.8.2 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.66.3 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	k8s.io/klog v0.4.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20190816220812-743ec37842bf // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+	k8s.io/klog v1.0.0 // indirect
+	k8s.io/kube-openapi v0.0.0-20200410163147-594e756bea31 // indirect
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1 // indirect
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
 
-go 1.20
+go 1.24.0
