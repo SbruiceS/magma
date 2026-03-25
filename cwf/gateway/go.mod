@@ -28,11 +28,11 @@ replace (
 
 require (
 	fbc/cwf/radius v0.0.0
-	github.com/docker/docker v25.0.6+incompatible
+	github.com/docker/docker v25.0.13+incompatible
 	github.com/fiorix/go-diameter/v4 v4.0.4
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-redis/redis v6.15.5+incompatible
-	github.com/golang/glog v1.2.0
+	github.com/golang/glog v1.2.5
 	github.com/golang/protobuf v1.5.4
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/magma/milenage v1.0.2
@@ -41,8 +41,8 @@ require (
 	github.com/sparrc/go-ping v0.0.0-20190613174326-4e5b6552494c
 	github.com/stretchr/testify v1.11.1
 	github.com/vishvananda/netlink v1.1.0
-	golang.org/x/crypto v0.24.0
-	google.golang.org/grpc v1.64.1
+	golang.org/x/crypto v0.46.0
+	google.golang.org/grpc v1.79.3
 	layeh.com/radius v0.0.0-20210819152912-ad72663a72ab
 	magma/cwf/cloud/go v0.0.0-00010101000000-000000000000
 	magma/feg/cloud/go/protos v0.0.0
@@ -134,14 +134,14 @@ require (
 	go.opentelemetry.io/otel v1.40.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.28.0 // indirect
 	go.opentelemetry.io/otel/metric v1.40.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.40.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.40.0 // indirect
 	go.opentelemetry.io/otel/trace v1.40.0 // indirect
-	golang.org/x/net v0.26.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.1 // indirect
